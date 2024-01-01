@@ -1,0 +1,17 @@
+.psh__portfolio--frame{
+    border: none;
+    width: 93%;
+    height: 90%;
+    overflow: hidden;
+    border-radius: .5rem;
+    background-color: #FFF;
+    aspect-ratio: 16 / 9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
