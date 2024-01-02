@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import "./Right.css"
 
 const Right = () => {
   return (
-    <div>Right</div>
+    <div className='psh__portfolio-right'>
+      Right
+    </div>
   )
 }
 
