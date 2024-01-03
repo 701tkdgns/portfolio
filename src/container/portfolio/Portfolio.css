@@ -1,17 +1,17 @@
-.psh__portfolio-right-body-conatainer-about{
+.psh__portfolio-right-body-conatainer-portfolio{
     width: 100%;
     height: 100%;
     overflow: hidden;
     position: relative;
 }
 
-.psh__portfolio-right-body-conatainer-about-wrap{
+.psh__portfolio-right-body-conatainer-portfolio-wrap{
     position: absolute;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.psh__portfolio-right-body-conatainer-about-wrap h3 {
+.psh__portfolio-right-body-conatainer-portfolio-wrap h3 {
     padding-bottom: 1rem;
 }

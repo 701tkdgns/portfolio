@@ -6,8 +6,12 @@
 }
 
 .psh__portfolio-right-header{
-    text-align: center;
+    display:inline;
+}
+
+.psh__portfolio-right-header-box{
     align-items: center;
+    text-align: center;
     justify-content: center;
     width: 100%;
     height: 100%;
@@ -39,6 +43,5 @@
 .psh__portfolio-right-body-conatainer-etc{
     overflow: hidden;
     justify-content: center;
-    align-items: center;
     text-align: center;
 }

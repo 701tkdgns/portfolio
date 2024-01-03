@@ -1,12 +1,14 @@
 import React from 'react';
-import "./Right.css"
 import { About, History, Portfolio, Etc } from "../index";
+import "./Right.css"
 
 const Right = () => {
   return (
     <div className='psh__portfolio-right'>
       <div className="psh__portfolio-right-header">
-        <h1>Hello!</h1>
+        <div className="psh__portfolio-right-header-box">
+          <h1>Hello!</h1>
+        </div>
       </div>
       <div className="psh__portfolio-right-body">
         <div className="psh__portfolio-right-body-title">
