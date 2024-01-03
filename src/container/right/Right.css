@@ -1,4 +1,44 @@
-.psh__portfolio-right{
+.psh__portfolio-right {
     width: 100%;
     height: 100%;
+    display: grid;
+    grid-template-rows: .4fr 2.6fr;
+}
+
+.psh__portfolio-right-header{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.psh__portfolio-right-body{
+    width: 100%;
+    height: 100%;
+}
+
+.psh__portfolio-right-body-title{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.psh__portfolio-right-body-conatainer{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.psh__portfolio-right-body-conatainer-about,
+.psh__portfolio-right-body-conatainer-history,
+.psh__portfolio-right-body-conatainer-portfolio,
+.psh__portfolio-right-body-conatainer-etc{
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
