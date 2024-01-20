@@ -5,8 +5,8 @@ import "./Frame.css";
 const Frame = () => {
     return (
         <div className='psh__portfolio--frame'>
-            <Left />
-            <Right />
+                <Left />
+                <Right />
         </div>
     )
 }

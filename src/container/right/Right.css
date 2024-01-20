@@ -2,3 +2,87 @@
     width: 100%;
     height: 100%;
 }
+
+.psh__portfolio-right-container{
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+.psh__portfolio-right-header{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 1rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.psh__portfolio-right-divider{
+    justify-content: center !important;
+    width: 40%;
+    margin: 1rem 0;
+    display: inline-block;
+}
+
+.psh__portfolio-right-body{
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: grid;
+    row-gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.psh__portfolio-right-about{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.psh__portfolio-right-about-body{
+    height: 100%;
+}
+
+.psh__portfolio-right-about-body-btn,
+.psh__portfolio-right-history-btn,
+.psh__portfolio-right-portfolio-btn{
+    width: 100%;
+    height: 100%;
+}
+
+.psh__portfolio-right-history{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.psh__portfolio-right-portfolio{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.psh__portfolio-right-blank{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    transition: all .5s ease;
+}
+
+.psh__portfolio-right-blank:hover{
+    background-color: aliceblue;
+}
