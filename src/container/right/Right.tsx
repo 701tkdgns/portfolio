@@ -1,4 +1,5 @@
 import React from 'react';
+import { About, History, Portfolio, Etc } from "../index";
 import "./Right.css"
 
 const Right = () => {

@@ -1,4 +1,23 @@
-.psh__portfolio-right{
+.psh__portfolio-right {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: .4fr 2.6fr;
+}
+
+.psh__portfolio-right-header{
+    display:inline;
+}
+
+.psh__portfolio-right-header-box{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.psh__portfolio-right-body{
     width: 100%;
     height: 100%;
 }

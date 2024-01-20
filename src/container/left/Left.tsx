@@ -12,7 +12,11 @@ const Left = () => {
         </div>
         <div className="psh__portfolio-left-body">
           <div className="psh__portfolio-left-body-profile">
-            <h3 className='psh__portfolio-left-body-profile-title'>hello!</h3>
+            <h3 className='psh__portfolio-left-body-profile-title'>psh</h3>
+            &nbsp;
+            <div className="psh__portfolio-left-body-profile-context">
+              <h4>wanna play the game?</h4>
+            </div>
           </div>
         </div>
       </div>
