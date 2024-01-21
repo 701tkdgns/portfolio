@@ -1,8 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { About, History, Portfolio, Etc } from "../index";
 import "./Right.css"
+import Popup from '../../component/popup/Popup';
+
+type ButtonType = 'about' | 'history' | 'portfolio';
 
 const Right = () => {
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
+  const [selectedButton, setSelectedButton] = useState<ButtonType | null>(null);
+  const openPopup = (button : ButtonType) => {
+    setSelectedButton(button);
+    setIsPopupOpen(true);
+  }
+  const closePopup = () => {
+    setIsPopupOpen(false);
+    setSelectedButton(null);
+  }
+
   return (
     <div className='psh__portfolio-right'>
       <div className="psh__portfolio-right-container">
@@ -11,21 +25,12 @@ const Right = () => {
           <hr className='psh__portfolio-right-divider'/>
         </div>
         <div className="psh__portfolio-right-body">
-          <div className="psh__portfolio-right-about">
-            <div className="psh__portfolio-right-about-body">
-              <button className='psh__portfolio-right-about-body-btn'>소개</button>
-            </div>
-          </div>
-          <div className="psh__portfolio-right-history">
-            <button className="psh__portfolio-right-history-btn">이력</button>
-          </div>
-          <div className="psh__portfolio-right-portfolio">
-            <button className="psh__portfolio-right-portfolio-btn">포트폴리오</button>
-          </div>
-          <div className="psh__portfolio-right-blank">
-            
-          </div>
+          <About openPopup={() => openPopup('about')}/>
+          <History openPopup={() => openPopup('history')}/>
+          <Portfolio openPopup={() => openPopup('portfolio')}/>
+          <Etc />
         </div>
+        {isPopupOpen && <Popup onClose={closePopup}/>}
       </div>
     </div>
   )

@@ -3,8 +3,9 @@ import "./Etc.css"
 
 const Etc = () => {
     return (
-        <div className="psh__portfolio-right-body-conatainer-etc">
-            
+        <div className="psh__portfolio-etc">
+            <div className="psh__portfolio-etc-box">
+            </div>
         </div>
     )
 }

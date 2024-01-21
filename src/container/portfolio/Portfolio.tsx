@@ -1,12 +1,17 @@
 import React from 'react'
+import Button from '../../component/button/Button'
 import "./Portfolio.css"
 
-const Portfolio = () => {
+interface PopupBtnProps {
+    openPopup: () => void;
+}
+
+const Portfolio: React.FC<PopupBtnProps> = ({openPopup}) => {
     return (
         <div className="psh__portfolio-right-body-conatainer-portfolio">
             <div className="psh__portfolio-right-body-conatainer-portfolio-wrap">
                 <h3>포트폴리오</h3>
-                <button>확인하기</button>
+                {/* <Button props={"포트폴리오"}/> */}
             </div>
         </div>
     )

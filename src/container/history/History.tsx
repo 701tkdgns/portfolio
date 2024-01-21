@@ -1,12 +1,17 @@
 import React from 'react'
 import "./History.css"
+import Button from '../../component/button/Button'
 
-const History = () => {
+interface PopupBtnProps {
+    openPopup: () => void;
+}
+
+const History: React.FC<PopupBtnProps> = ({openPopup}) => {
     return (
         <div className="psh__portfolio-right-body-conatainer-history">
             <div className="psh__portfolio-right-body-conatainer-history-wrap">
                 <h3>이력</h3>
-                <button>확인하기</button>
+                {/* <Button props={'확인하기'}/> */}
             </div>
         </div>
     )
