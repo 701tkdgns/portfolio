@@ -1,9 +1,54 @@
 .psh__portfolio-popup{
     position: absolute;
-    width: 500px;
-    height: 500px;
-    background-color: black;
+    width: 30rem;
+    height: 30rem;
+    background-color: white;
+    border: 1px solid #000;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border-radius: 1rem;
+    z-index: 999 !important;
+}
+
+.psh__portfolio-popup-content{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.psh__portfolio-popup-header{
+    text-align: right;
+    padding: 1rem;
+}
+
+.psh__portfolio-popup-button {
+    width: 130px;
+    height: 40px;
+    padding: 10px 25px;
+    border: 2px solid #000;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    background: #000;
+    margin: 20px;
+    color: #fff;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    z-index: 1;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.psh__portfolio-popup-button:hover{
+    background: transparent;
+    color: #000;
+    border: 1px solid #000;
 }

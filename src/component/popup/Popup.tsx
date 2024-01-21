@@ -1,17 +1,28 @@
-import React, { useEffect } from 'react'
+import React, { useEffect } from 'react';
+import { AC, HC, PC } from '../card';
+import X from "../x/X";
 import "./Popup.css"
 
+type ButtonType = 'about' | 'history' | 'portfolio';
 
 interface PopupProps {
-  onClose : () => void;
+  selectedBtn: ButtonType;
+  onClose: () => void;
 }
 
-const Popup : React.FC<PopupProps> = ({ onClose }) => {
+const Popup: React.FC<PopupProps> = ({ selectedBtn, onClose }) => {
   return (
     <div className="psh__portfolio-popup">
       <div className="psh__portfolio-popup-content">
-        <p>이곳에 팝업 내용을 추가하세요.</p>
-        <button onClick={onClose}>닫기</button>
+        <div className="psh__portfolio-popup-header">
+          <X onClose={onClose} />
+        </div>
+        <div className="psh__portfolio-popup-body">
+          {selectedBtn === 'about' && <AC/>}
+          {selectedBtn === 'history' && <HC />}
+          {selectedBtn === 'portfolio' && <PC />}
+          <button className='psh__portfolio-popup-button' onClick={onClose}>종료</button>
+        </div>
       </div>
     </div>
   )

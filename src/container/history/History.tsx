@@ -11,7 +11,7 @@ const History: React.FC<PopupBtnProps> = ({openPopup}) => {
         <div className="psh__portfolio-right-body-conatainer-history">
             <div className="psh__portfolio-right-body-conatainer-history-wrap">
                 <h3>이력</h3>
-                {/* <Button props={'확인하기'}/> */}
+                <Button props={'확인하기'} openPopup={openPopup} />
             </div>
         </div>
     )
