@@ -1,0 +1,18 @@
+.psh_portfolio_about-contents{
+    width: 100%;
+}
+
+.psh_portfolio_about-contents h3{
+    padding: 1rem;
+}
+
+.psh_portfolio_about-body{
+    width: 100%;
+}
+
+.psh_portfolio_about-stack{
+    padding: 1rem;
+    width: 100%;
+    justify-content: start;
+    text-align: left;
+}

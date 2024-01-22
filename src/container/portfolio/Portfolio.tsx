@@ -11,7 +11,7 @@ const Portfolio: React.FC<PopupBtnProps> = ({openPopup}) => {
         <div className="psh__portfolio-right-body-conatainer-portfolio">
             <div className="psh__portfolio-right-body-conatainer-portfolio-wrap">
                 <h3>포트폴리오</h3>
-                {/* <Button props={"포트폴리오"}/> */}
+                <Button props={'확인하기'} openPopup={openPopup} />
             </div>
         </div>
     )
