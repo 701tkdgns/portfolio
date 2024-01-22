@@ -4,6 +4,8 @@ import Gmail from '../../component/popup/Gmail'
 import "./Left.css"
 import 'react-tooltip/dist/react-tooltip.css'
 import { Tooltip } from 'react-tooltip'
+import 'react-tooltip/dist/react-tooltip.css'
+import { Tooltip } from 'react-tooltip'
 
 const Left = () => {
   const handleGithubLink = () => {
