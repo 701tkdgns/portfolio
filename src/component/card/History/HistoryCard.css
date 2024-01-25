@@ -82,9 +82,13 @@
 
 .psh__history-data{
     margin-top: .3rem;
-    display: grid;
-    grid-template-columns: 1fr max-content 1fr;
-    column-gap: 1.5rem;
+    justify-content: start;
+    text-align: start;
+    padding: 1rem 0 0 1rem;
+}
+
+.psh__history-data > *{
+    padding-bottom: 1rem;
 }
 
 .psh__history-rounder{

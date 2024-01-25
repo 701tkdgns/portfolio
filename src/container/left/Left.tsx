@@ -1,9 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Github from '../../component/Icons/github/Github'
 import Gmail from '../../component/popup/Gmail'
 import "./Left.css"
-import 'react-tooltip/dist/react-tooltip.css'
-import { Tooltip } from 'react-tooltip'
 import 'react-tooltip/dist/react-tooltip.css'
 import { Tooltip } from 'react-tooltip'
 
@@ -26,10 +24,9 @@ const Left = () => {
         </div>
         <div className="psh__portfolio-left-body">
           <div className="psh__portfolio-left-body-profile">
-            <h3 className='psh__portfolio-left-body-profile-title'>psh</h3>
+            <h3 className='psh__portfolio-left-body-profile-title'>I'm SangHoon Park</h3>
             &nbsp;
             <div className="psh__portfolio-left-body-profile-context">
-              <h4>I'm SangHoon Park</h4>
               <div className='psh__portfolio-left-body-profile-list'>
                 <Github onClick={() => handleGithubLink()}/>
                 <div id="clickable">

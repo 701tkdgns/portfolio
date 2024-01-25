@@ -1,19 +1,19 @@
-import React, {useState} from 'react';
+import React from 'react';
 import "./HistoryCard.css";
 
 const HistoryCard = () => {
   return (
     <div className='psh_portfolio-history-card'>
-      <h3>이력</h3>
+      <h2>이력</h2>
       <div className="psh__history-data">
+        <div><h3>경력</h3></div>
         <div>
-            학력
+          <h4>행복한다람쥐단 :<span> 2022/06 ~</span></h4>
         </div>
       </div>
       <div className="psh__history-data">
-        <div>
-            경력
-        </div>
+        <div><h3>자격증</h3></div>
+        <div><h4>정보처리기사</h4></div>
       </div>
     </div>
   );  
