@@ -6,7 +6,7 @@ import 'react-tooltip/dist/react-tooltip.css'
 import { Tooltip } from 'react-tooltip'
 
 const Left = () => {
-  const homepage = process.env.PUBLIC_URL;
+  const homepage = process.env.homepage;
   const handleGithubLink = () => {
     window.open("https://github.com/701tkdgns", "_blank");
   }
