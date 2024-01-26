@@ -6,6 +6,7 @@ import 'react-tooltip/dist/react-tooltip.css'
 import { Tooltip } from 'react-tooltip'
 
 const Left = () => {
+  const homepage = process.env.PUBLIC_URL;
   const handleGithubLink = () => {
     window.open("https://github.com/701tkdgns", "_blank");
   }
@@ -19,7 +20,7 @@ const Left = () => {
       <div className="psh__portfolio-left-container">
         <div className="psh__portfolio-left-header">
           <div className="psh__portfolio-left-header-photo">
-            <img src="./assets/profile.jpg" alt="profile" />
+            <img src={homepage+'/assets/profile.jpg'} alt="profile" />
           </div>
         </div>
         <div className="psh__portfolio-left-body">
