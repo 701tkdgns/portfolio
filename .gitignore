@@ -14,9 +14,9 @@
 /coverage
 
 # production
-# /build
-/src
-/public
+/build
+# /src
+# /public
 
 
 # misc

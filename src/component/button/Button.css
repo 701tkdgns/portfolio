@@ -1,0 +1,54 @@
+.psh__portfolio-button {
+    width: 130px;
+    height: 40px;
+    padding: 10px 25px;
+    border: 2px solid #000;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    background: #000;
+    margin: 20px;
+    color: #fff;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    z-index: 1;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.psh__portfolio-button:hover {
+    background: transparent;
+    color: #000;
+}
+
+.psh__portfolio-button:before,
+.psh__portfolio-button:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 100%;
+    height: 50%;
+    right: 0;
+    z-index: -1;
+    background: #000;
+    transition: all 0.3s ease;
+}
+
+.psh__portfolio-button:before {
+    top: 0;
+}
+
+.psh__portfolio-button:after {
+    bottom: 0;
+}
+
+.psh__portfolio-button:hover:before,
+.psh__portfolio-button:hover:after {
+    height: 0;
+    background-color: #000;
+}
