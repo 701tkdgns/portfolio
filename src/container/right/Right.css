@@ -45,3 +45,9 @@
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
 }
+
+@media (max-width: 1000px){
+    .psh__portfolio-right{
+        height: 100%;
+    }
+}
