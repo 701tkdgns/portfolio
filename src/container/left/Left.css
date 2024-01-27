@@ -56,4 +56,10 @@
     .psh__portfolio-left{
         height: auto;
     }
+
+    .psh__portfolio-left-header-photo img{
+        width: 8rem;
+        height: 8rem;
+    }
+
 }
