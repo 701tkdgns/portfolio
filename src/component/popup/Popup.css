@@ -4,8 +4,6 @@
     height: 30rem;
     background-color: white;
     border: 1px solid #000;
-    width: 30rem;
-    height: 30rem;
     background-color: white;
     border: 1px solid #000;
     top: 50%;
@@ -60,4 +58,28 @@
     background: transparent;
     color: #000;
     border: 1px solid #000;
+}
+
+@media (max-width : 600px) {
+    .psh__portfolio-popup{
+        width: 20rem;
+        height: 25rem;
+    }
+
+    .psh__portfolio-popup-header{
+        text-align: right;
+        padding: .2rem;
+    }
+
+    .psh_portfolio_about-contents h3{
+        padding: .4rem;
+    }
+
+    .psh_portfolio_about-stack{
+        padding: .4rem 1rem;
+    }
+
+    .psh_portfolio_portfolio ul {
+        padding: 1rem 1rem .5rem 1rem;
+    }
 }
